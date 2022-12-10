@@ -1,0 +1,26 @@
+INSERT INTO STUDENTS (last_name, first_name, patronymic, group_number, is_active)
+VALUES ('IVANOV', 'IVAN', 'IVANOVICH', 123, TRUE);
+INSERT INTO STUDENTS (last_name, first_name, patronymic, group_number, is_active)
+VALUES ('PETROV', 'PETR', 'PETROVICH', 123, TRUE);
+INSERT INTO STUDENTS (last_name, first_name, patronymic, group_number, is_active)
+VALUES ('SIDOROVA', 'ANNA', 'SERGEEVNA', 456, TRUE);
+INSERT INTO STUDENTS (last_name, first_name, patronymic, group_number, is_active)
+VALUES ('KUZNETSOV', 'SEMEN', 'YURIEVICH', 400, TRUE);
+
+INSERT INTO COURSES (TITLE, date_start, date_end, is_active)
+VALUES ('JAVA FOR BEGINER', '2022-01-01', '2022-06-01', TRUE);
+INSERT INTO COURSES (TITLE, date_start, date_end, is_active)
+VALUES ('SPRING FOR ALL', '2022-02-01', '2022-12-01', TRUE);
+INSERT INTO COURSES (TITLE, date_start, date_end, is_active)
+VALUES ('UI DESING', '2022-04-01', '2022-08-01', TRUE);
+
+INSERT INTO COURSES_STUDENTS (COURSE_ID, STUDENT_ID)
+VALUES ('1', '1');
+INSERT INTO COURSES_STUDENTS (COURSE_ID, STUDENT_ID)
+VALUES ('1', '2');
+INSERT INTO COURSES_STUDENTS (COURSE_ID, STUDENT_ID)
+VALUES ('1', '3');
+INSERT INTO COURSES_STUDENTS (COURSE_ID, STUDENT_ID)
+VALUES ('2', '2');
+INSERT INTO COURSES_STUDENTS (COURSE_ID, STUDENT_ID)
+VALUES ('3', '4');
